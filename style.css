@@ -1,0 +1,44 @@
+* {
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+body {
+  background-image: url("http://wallpaperset.com/w/full/5/0/c/383733.jpg");
+  background-size: cover;
+  position: relative;
+}
+h1,
+h2 {
+  font-family: Lato;
+}
+#h2 {
+  margin-left: 180px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+#app {
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+}
+span {
+  width: 200px;
+  margin-left: 180px;
+  cursor: pointer;
+}
+span:hover {
+  border: solid 2px blue;
+  font-size: larger;
+  color: blue;
+}
+
+#modal {
+  position: fixed;
+  top: 150px;
+  left: 500px;
+  /* border: solid 2px; */
+  text-align: center;
+  width: 10%;
+}
